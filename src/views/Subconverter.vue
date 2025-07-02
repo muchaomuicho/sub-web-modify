@@ -793,7 +793,7 @@ export default {
         remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",
         excludeRemarks: "",
         includeRemarks: "",
-        filename: "转换", //订阅命名
+        filename: "", //订阅命名
         rename: "", //节点命名
         devid: "",
         interval: "",
