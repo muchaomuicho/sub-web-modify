@@ -793,8 +793,8 @@ export default {
         remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",
         excludeRemarks: "",
         includeRemarks: "",
-        filename: "",
-        rename: "转换",
+        filename: "转换",
+        rename: "", //节点命名
         devid: "",
         interval: "",
         emoji: true,
@@ -804,9 +804,9 @@ export default {
         udp: true,
         xudp: false,
         tfo: false,
-        sort: true,
+        sort: false, //基础节点排序
         expand: true,
-        scv: false,
+        scv: true,
         fdn: false,
         appendType: false,
         insert: false, // 是否插入默认订阅的节点，对应配置项 insert_url
